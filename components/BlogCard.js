@@ -9,9 +9,9 @@ export default function BlogCard({
 	slug,
 }) {
 	return (
-		<div className="styles.card">
+		<div className={styles.card}>
 			<Link href={"/posts/" + slug}>
-				<div className="styles.imgContainer">
+				<div className={styles.imgContainer}>
 					<img src={coverPhoto.url} alt={title} />
 				</div>
 			</Link>
